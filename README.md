@@ -1,27 +1,9 @@
-Welcome to the Glitch BETA
-=========================
+# MongoDB example app
+This app connects to a MongoDB database, creates a collection, populates it with items, then drops the collection and closes the connection.
 
-Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
+The steps are written to the page using Express.
 
-**Glitch** is the friendly commmunity where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
+It's based on the [nodeSimpleExample.js example](https://github.com/mongolab/mongodb-driver-examples/blob/master/nodejs/nodeSimpleExample.js).
 
-Find out more [about Glitch](https://glitch.com/about).
-
-
-Your Project
-------------
-
-On the front-end,
-- edit `public/client.js`, `public/style.css` and `views/index.html`
-- drag in `assets`, like images or music, to add them to your project
-
-On the back-end,
-- your app starts at `server.js`
-- add frameworks and packages in `package.json`
-- safely store app secrets in `.env` (nobody can see this but you and people you invite)
-
-
-Made by [Fog Creek](https://fogcreek.com/)
--------------------
-
-\ ゜o゜)ノ
+## Getting Started
+Sign up for a a free hosted mongodb instance at [mLab](https://mlab.com), then update `.env` with your database credentials.
