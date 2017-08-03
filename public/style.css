@@ -64,6 +64,9 @@ ol {
 ul {
 	list-style-type: none;
 }
+li {
+  padding-bottom: 12px;
+}
 
 a {
 	color: #2574A9;
