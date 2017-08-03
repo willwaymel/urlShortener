@@ -70,6 +70,7 @@ app.get('/new/*', function(req, res){
                 urls.insert(databaseEntry, function(err, result) {
                   if(err) throw err;
                 console.log('ive written to the db');
+                  db.close();
             });    
             });
         
@@ -97,6 +98,7 @@ app.get('/*', function (req, res) {
             // console.log(result.original_url + " this is the looked up web address" + typeof result + JSON.stringify(result));
             lookedUpUrl = result.original_url;
             console.log(lookedUpUrl);
+            db.close();
             // res.redirect(JSON.stringify(result.original_url));
             res.redirect(301, lookedUpUrl);  
         } else {
