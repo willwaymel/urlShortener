@@ -10,6 +10,8 @@
    </head>
 
    <body>
+     <div class="wrapper">
+
       <div class="container">
         
          <h1>FreeCodeCamp API Challenge: URL Shortener Microservice</h1>
@@ -20,23 +22,31 @@
           <ol>
             <li>I can pass a URL as a parameter and I will receive a shortened URL in the JSON response.</li>
             <li>When I visit that shortened URL, it will redirect me to my original link.</li>
-            <li>If I pass an invalid URL that doesn't follow the valid http://www.example.com format, the JSON response will contain an error instead.</li>
+            <li>If I pass an invalid URL that doesn't follow the valid <code>http</code> or <code>https://www.example.com</code> format, the JSON response will contain an error instead.</li>
         </ol>
-        <p>
-          Example usage - input:
-          <code><a href="https://way-shorter-url.glitch.me/new/https://www.google.com" >https://way-shorter-url.glitch.me/new/https://www.google.com</a></code>
-        </p>
+        <div class="examplebox">
+          <div class="examples dont-break-out">
+            <p>
+              Example usage - input:
+              <code><a href="https://way-shorter-url.glitch.me/new/https://www.google.com" >https://way-shorter-url.glitch.me/new/https://www.google.com</a></code>
+            </p>
 
-        <p>
-          Example output:
-          <code><a href="https://way-shorter-url.glitch.me/HkK727xvZ">https://way-shorter-url.glitch.me/HkK727xvZ</a></code>
+            <p>
+              Example output:
+              <code><a href="https://way-shorter-url.glitch.me/HkK727xvZ">https://way-shorter-url.glitch.me/HkK727xvZ</a></code>
+            </p>
+          </div>
+        </div>
         
-        </p>
-
         
       </div>
-   </body>
-<footer><p>
-  Created by Will Waymel
-  </p></footer>
+           <div class="push"></div>
+  </div>
+   
+<footer class="footer">
+  <p>
+    Created by Will Waymel
+  </p>
+  </footer>
+     </body>
 </html>
